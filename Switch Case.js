@@ -15,7 +15,7 @@ const temperature = 36
 switch (temperature) {
     case 30:
         console.log('A pessoa está com a temperatura MUITO a baixo do normal')
-        break;
+        break;  // sem ele o sistema mais continuar indetermidado ate o BREAK
 
     case 33:
         console.log('A pessoa está com a temperatura a baixo do normal')
